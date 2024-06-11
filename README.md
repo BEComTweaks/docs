@@ -9,13 +9,13 @@
 		- [x]	Crafting Tweaks
 
 - [ ]	resource-packs
-	- [ ]	Make Credits Footer use white text
+	- [x]	Make Credits Footer use white text
 	
 	- [x]	Fix pre_commit.py for the index.html changes and make it use a formatted version
 - [ ]	behaviour-packs
-	- [ ]	Make Credits Footer use white text
+	- [x]	Make Credits Footer use white text
 - [ ]	crafting-tweaks
-	- [ ]	Make Credits Footer use white text
+	- [x]	Make Credits Footer use white text
 - [x]	server-backend
 
 - [x]	bedrocktweaks.github.io
