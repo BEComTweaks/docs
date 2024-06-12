@@ -6,8 +6,8 @@
 
 ## Completed
 - General
-	- [x] Setup [bedrocktweaks.github.io](https://bedrocktweaks.github.io) as the landing page
-	- Copy over stuff from [BedrockTweaks/resource-packs](https://github.com/BedrockTweaks/resource-packs) for
+	- [x] Setup [becomtweaks.github.io](https://becomtweaks.github.io) as the landing page
+	- Copy over stuff from [BEComTweaks/resource-packs](https://github.com/BEComTweaks/resource-packs) for
 		- [x] Behaviour Packs/Addons
 		- [x] Crafting Tweaks
 - resource-packs
@@ -18,6 +18,6 @@
 - crafting-tweaks
 	- [x] Make Credits Footer use white text
 
-<sub>This will be done unless DrAV does update [bedrocktweaks.net](https://bedrocktweaks.net) to allow others to contribute. If it happens, all repositories here will be archived</sub>
+<sub>This will be done unless DrAV does update [becomtweaks.net](https://becomtweaks.net) to allow others to contribute. If it happens, all repositories here will be archived</sub>
 
-[Back to main website](https://bedrocktweaks.github.io)
+[Back to main website](https://becomtweaks.github.io)
