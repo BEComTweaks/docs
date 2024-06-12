@@ -17,7 +17,6 @@
 	- [x] Make Credits Footer use white text
 - crafting-tweaks
 	- [x] Make Credits Footer use white text
-</details>
 
 <sub>This will be done unless DrAV does update [bedrocktweaks.net](https://bedrocktweaks.net) to allow others to contribute. If it happens, all repositories here will be archived</sub>
 
