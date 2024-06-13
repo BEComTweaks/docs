@@ -3,6 +3,8 @@
 	- [ ] Make a visual tracker on pack progress in the website
 		- [x] Shows a loading circle on desktop mode
 		- [ ] Show a visual progress on packs added
+		- [ ] Show a dialog if conflicts occur
+	- [ ] Make opening categories animated instead of it shwoing instantly
 
 ## Completed
 - General
