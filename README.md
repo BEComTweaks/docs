@@ -1,15 +1,28 @@
 ## Incomplete
 - General
-	- [ ] Make a visual tracker on pack progress in the website
+	- Make a visual tracker on pack progress in the website
 		- [x] Shows a loading circle on desktop mode
 		- [ ] Show a visual progress on packs added
 		- [ ] Show a dialog if conflicts occur
 	- [ ] Make opening categories animated instead of it shwoing instantly
  	- [ ] Add ability for subcategories
-  	- [ ] Add new 1.21 tweaks from vanilla tweaks
-  	- [ ] rearange existing tweaks to match 1.21 vanilla tweaks
-  	- [ ] show error when trying to download incompatable packs
-  	- [ ] show border around categories
+  	- [ ] Rearange existing tweaks to match 1.21 vanilla tweaks
+  	- [ ] Show error when trying to download incompatable packs
+	- [ ] Make subcategories a thing
+
+- resource-packs
+  	- Add new 1.21 tweaks from vanilla tweaks
+		- [ ] Dark UI for Crafter
+		- [ ] Glass Doors for Copper Doors
+		- [ ] Texture for Waxed Copper Door Items
+		- [ ] Move Colorful Slimes to subcategory of World of Color
+		- [ ] Colorful Elytra subcategory of World of Color
+		- [ ] Colorful Enchantment Glint (it is possible)
+		- [ ] Move Crosshairs and Menu Panoramas to subcategory of GUI
+		- [ ] Hearts and Hunger bars as subcategory of GUI
+		- [ ] Quieter Breezes, Armadillos and Skeletons (bogged variant)
+		- [ ] Soyjak Vault (tf)
+		- [ ] Pottery Sherd to Shard for new Sherds
 
 ## Completed
 - General
