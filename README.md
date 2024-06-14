@@ -5,6 +5,11 @@
 		- [ ] Show a visual progress on packs added
 		- [ ] Show a dialog if conflicts occur
 	- [ ] Make opening categories animated instead of it shwoing instantly
+ 	- [ ] Add ability for subcategories
+  	- [ ] Add new 1.21 tweaks from vanilla tweaks
+  	- [ ] rearange existing tweaks to match 1.21 vanilla tweaks
+  	- [ ] show error when trying to download incompatable packs
+  	- [ ] show border around categories
 
 ## Completed
 - General
