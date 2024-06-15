@@ -9,7 +9,6 @@
   	- [ ] Rearange existing tweaks to match 1.21 vanilla tweaks
   	- [ ] Show error when trying to download incompatable packs
 	- [ ] Make subcategories a thing
-
 - resource-packs
   	- Add new 1.21 tweaks from vanilla tweaks
 		- [ ] Dark UI for Crafter
