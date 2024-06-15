@@ -11,7 +11,7 @@
 	- [ ] Make subcategories a thing
  	- [ ] show pack list on side similar to vanilla tweaks(in progress by yzabeast1)
 - resource-packs
-  	- Add new 1.21 tweaks from vanilla tweaks
+	- Add new 1.21 tweaks from vanilla tweaks
 		- [ ] Dark UI for Crafter
 		- [ ] Glass Doors for Copper Doors
 		- [ ] Texture for Waxed Copper Door Items
