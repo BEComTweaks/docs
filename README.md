@@ -9,7 +9,6 @@
   	- [ ] Rearange existing tweaks to match 1.21 vanilla tweaks
   	- [ ] Show error when trying to download incompatable packs
 	- [ ] Make subcategories a thing `in progress by nspc911`
- 	- [ ] show pack list on side similar to vanilla tweaks `in progress by yzabeast1`
 - resource-packs
 	- Add new 1.21 tweaks from vanilla tweaks
 		- [ ] Dark UI for Crafter
@@ -30,6 +29,7 @@
 	- Copy over stuff from [BEComTweaks/resource-packs](https://github.com/BEComTweaks/resource-packs) for
 		- [x] Behaviour Packs/Addons
 		- [x] Crafting Tweaks
+ 	- [x] show pack list on side similar to vanilla tweaks
 - resource-packs
 	- [x] Make Credits Footer use white text
 	- [x] Fix pre_commit.py for the index.html changes and make it use a formatted version
