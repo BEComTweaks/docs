@@ -1,3 +1,5 @@
+> [!IMPORTANT]
+> As of 17/6/24, BEComTweaks and its repositories will be archived in favour of BedrockTweaks.
 ## Incomplete
 - General
 	- Make a visual tracker on pack progress in the website
