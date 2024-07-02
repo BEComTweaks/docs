@@ -13,6 +13,8 @@
   	- [ ] Rearange existing tweaks to match 1.21 vanilla tweaks
   	- [ ] Show error when trying to download incompatable packs
 	- [ ] Make subcategories a thing <kbd>in progress by nspc911</kbd>
+ 	- [ ] fix crafting tweaks not showing pack icons
+  	- [ ] fix resource pack page not showing a pack list
 - resource-packs
 	- ~~Definitely won't take from BedrockTweaks/Files~~
 	- Add new 1.21 tweaks from vanilla tweaks
