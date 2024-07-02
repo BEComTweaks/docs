@@ -1,5 +1,7 @@
 > [!IMPORTANT]
-> As of 17/6/24, BEComTweaks and its repositories will be archived in favour of BedrockTweaks.
+> As of 2/7/24, BedrockTweaks/Files will be more favoured compared to BEComTweaks.
+> Contributions here will also be directed to BedrockTweaks/Files.
+
 ## Incomplete
 - General
 	- Make a visual tracker on pack progress in the website
@@ -10,8 +12,9 @@
  	- [ ] Add ability for subcategories
   	- [ ] Rearange existing tweaks to match 1.21 vanilla tweaks
   	- [ ] Show error when trying to download incompatable packs
-	- [ ] Make subcategories a thing `in progress by nspc911`
+	- [ ] Make subcategories a thing <kbd>in progress by nspc911</kbd>
 - resource-packs
+	- ~~Definitely won't take from BedrockTweaks/Files~~
 	- Add new 1.21 tweaks from vanilla tweaks
 		- [ ] Dark UI for Crafter
 		- [ ] Glass Doors for Copper Doors
