@@ -1,5 +1,6 @@
 > [!IMPORTANT]
 > As of 2/7/24, BedrockTweaks/Files will be more favoured compared to BEComTweaks.
+> 
 > Contributions here will also be directed to BedrockTweaks/Files.
 
 ## Incomplete
@@ -44,7 +45,5 @@
 - crafting-tweaks
 	- [x] Make Credits Footer use white text
  	- [x] fix crafting tweaks not showing pack icons
-
-<sub>This will be done unless DrAV does update [becomtweaks.net](https://becomtweaks.net) to allow others to contribute. If it happens, all repositories here will be archived</sub>
 
 [Back to main website](https://becomtweaks.github.io)
