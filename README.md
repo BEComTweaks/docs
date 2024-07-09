@@ -14,6 +14,7 @@
   	- [ ] Rearange existing tweaks to match 1.21 vanilla tweaks
   	- [ ] Show error when trying to download incompatable packs
 	- [ ] Make subcategories a thing <kbd>in progress by nspc911</kbd>
+	- [ ] Make a menu bar <kbd>in progress by nspc911</kbd>
 - resource-packs
 	- ~~Definitely won't take from BedrockTweaks/Files~~
 	- Add new 1.21 tweaks from vanilla tweaks
@@ -22,11 +23,11 @@
 		- [ ] Texture for Waxed Copper Door Items
 		- [ ] Move Colorful Slimes to subcategory of World of Color
 		- [ ] Colorful Elytra subcategory of World of Color
-		- [ ] Colorful Enchantment Glint (it is possible)
+		- [ ] Colorful Enchantment Glint
 		- [ ] Move Crosshairs and Menu Panoramas to subcategory of GUI
 		- [ ] Hearts and Hunger bars as subcategory of GUI
-		- [ ] Quieter Breezes, Armadillos and Skeletons (bogged variant)
-		- [ ] Soyjak Vault (tf)
+		- [ ] Quieter Breezes, Armadillos and Skeletons
+		- [ ] Soyjak Vault
 		- [ ] Pottery Sherd to Shard for new Sherds
 
 ## Completed
