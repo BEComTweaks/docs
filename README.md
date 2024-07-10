@@ -14,7 +14,6 @@
   	- [ ] Rearange existing tweaks to match 1.21 vanilla tweaks
   	- [ ] Show error when trying to download incompatable packs
 	- [ ] Make subcategories a thing <kbd>in progress by nspc911</kbd>
-	- [ ] Make a menu bar <kbd>in progress by nspc911</kbd>
 - resource-packs
 	- ~~Definitely won't take from BedrockTweaks/Files~~
 	- Add new 1.21 tweaks from vanilla tweaks
@@ -37,6 +36,7 @@
 		- [x] Behaviour Packs/Addons
 		- [x] Crafting Tweaks
  	- [x] show pack list on side similar to vanilla tweaks
+	- [x] Make a menu bar
 - resource-packs
 	- [x] Make Credits Footer use white text
 	- [x] Fix pre_commit.py for the index.html changes and make it use a formatted version
