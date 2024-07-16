@@ -10,7 +10,6 @@
 		- [ ] Show a visual progress on packs added
 	- [ ] Make opening categories animated instead of it shwoing instantly
   	- [ ] Rearange existing tweaks to match 1.21 vanilla tweaks
-	- [ ] Make subcategories a thing <kbd>in progress by nspc911</kbd>
 - resource-packs
 	- ~~Definitely won't take from BedrockTweaks/Files~~
 	- Add new 1.21 tweaks from vanilla tweaks
@@ -34,6 +33,7 @@
 		- [x] Crafting Tweaks
  	- [x] show pack list on side similar to vanilla tweaks
 	- [x] Make a menu bar
+	- [x] Make subcategories a thing
 - resource-packs
 	- [x] Make Credits Footer use white text
 	- [x] Fix pre_commit.py for the index.html changes and make it use a formatted version
