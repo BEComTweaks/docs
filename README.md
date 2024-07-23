@@ -8,22 +8,21 @@
 	- Make a visual tracker on pack progress in the website
 		- [x] Shows a loading circle on desktop mode
 		- [ ] Show a visual progress on packs added
-	- [ ] Make opening categories animated instead of it shwoing instantly
-  	- [ ] Rearange existing tweaks to match 1.21 vanilla tweaks
+	- [x] Make opening categories animated instead of it showing instantly [#23](https://github.com/BEComTweaks/resource-packs/pull/23)
+  	- [ ] Rearange existing tweaks to match 1.21 vanilla tweaks [#23](https://github.com/BEComTweaks/resource-packs/pull/23)
 - resource-packs
 	- ~~Definitely won't take from BedrockTweaks/Files~~
-	- Add new 1.21 tweaks from vanilla tweaks
+	- Add new 1.21 tweaks from vanilla tweaks [#23](https://github.com/BEComTweaks/resource-packs/pull/23)
 		- [ ] Dark UI for Crafter
 		- [ ] Glass Doors for Copper Doors
 		- [ ] Texture for Waxed Copper Door Items
-		- [ ] Move Colorful Slimes to subcategory of World of Color
+		- [x] Move Colorful Slimes to subcategory of World of Color
 		- [ ] Colorful Elytra subcategory of World of Color
-		- [ ] Colorful Enchantment Glint
-		- [ ] Move Crosshairs and Menu Panoramas to subcategory of GUI
+		- [x] Move Crosshairs and Menu Panoramas to subcategory of GUI
 		- [ ] Hearts and Hunger bars as subcategory of GUI
-		- [ ] Quieter Breezes, Armadillos and Skeletons
+		- [x] Quieter Breezes, Armadillos and Skeletons
 		- [ ] Soyjak Vault
-		- [ ] Pottery Sherd to Shard for new Sherds
+		- [x] Pottery Sherd to Shard for new Sherds
 
 ## Completed
 - General
