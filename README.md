@@ -6,45 +6,40 @@
 
 ## Incomplete
 - General
-	- Make a visual tracker on pack progress in the website
-		- [x] Shows a loading circle on desktop mode
-		- [ ] Show a visual progress on packs added
-	- [x] Make opening categories animated instead of it showing instantly [#23](https://github.com/BEComTweaks/resource-packs/pull/23)
+	- [ ] Show a visual progress on packs added
 - resource-packs
-	- ~~Definitely won't take from BedrockTweaks/Files~~
-	- Add new 1.21 tweaks from vanilla tweaks [#23](https://github.com/BEComTweaks/resource-packs/pull/23)
-		- [ ] Dark UI for Crafter
-		- [x] Glass Doors for Copper Doors
-		- [x] Texture for Waxed Copper Door Items
-		- [x] Move Colorful Slimes to subcategory of World of Color
-		- [x] Colorful Elytra subcategory of World of Color
-		- [x] Move Crosshairs and Menu Panoramas to subcategory of GUI
-		- [x] Hearts and Hunger bars as subcategory of GUI
-		- [x] Quieter Breezes, Armadillos and Skeletons
-		- [x] Soyjak Vault
-		- [x] Pottery Sherd to Shard for new Sherds
-- crafting-tweaks
-	- [ ] Update backend with stuff from resource-packs
-- behaviour-packs
-	- [x] Update backend with stuff from resource-packs [#1](https://github.com/BEComTweaks/behaviour-packs/pull/1)
+	- [ ] Dark UI for Crafter
 
 ## Completed
 - General
-	- [x] Setup [becomtweaks.github.io](https://becomtweaks.github.io) as the landing page
+	- Setup [becomtweaks.github.io](https://becomtweaks.github.io) as the landing page
 	- Copy over stuff from [BEComTweaks/resource-packs](https://github.com/BEComTweaks/resource-packs) for
-		- [x] Behaviour Packs/Addons
-		- [x] Crafting Tweaks
- 	- [x] show pack list on side similar to vanilla tweaks
-	- [x] Make a menu bar
-	- [x] Make subcategories a thing
+		- Behaviour Packs/Addons
+		- Crafting Tweaks
+ 	- Show pack list on side similar to vanilla tweaks
+	- Make a menu bar
+	- Make subcategories a thing
+	- Make opening categories animated instead of it showing instantly [#23](https://github.com/BEComTweaks/resource-packs/pull/23)
 - resource-packs
-	- [x] Make Credits Footer use white text
-	- [x] Fix pre_commit.py for the index.html changes and make it use a formatted version
-  	- [x] Fix resource pack page not showing a pack list
+	- Make Credits Footer use white text
+	- Fix pre_commit.py for the index.html changes and make it use a formatted version
+  	- Fix resource pack page not showing a pack list
+	- Add new 1.21 tweaks from vanilla tweaks [#23](https://github.com/BEComTweaks/resource-packs/pull/23)
+		- Glass Doors for Copper Doors
+		- Texture for Waxed Copper Door Items
+		- Move Colorful Slimes to subcategory of World of Color
+		- Colorful Elytra subcategory of World of Color
+		- Move Crosshairs and Menu Panoramas to subcategory of GUI
+		- Hearts and Hunger bars as subcategory of GUI
+		- Quieter Breezes, Armadillos and Skeletons
+		- Soyjak Vault
+		- Pottery Sherd to Shard for new Sherds
 - behaviour-packs
-	- [x] Make Credits Footer use white text
+	- Make Credits Footer use white text
+	- Update backend with stuff from resource-packs [#1](https://github.com/BEComTweaks/behaviour-packs/pull/1)
 - crafting-tweaks
-	- [x] Make Credits Footer use white text
-	- [x] Fix crafting tweaks not showing pack icons
+	- Make Credits Footer use white text
+	- Fix crafting tweaks not showing pack icons
+	- Update backend with stuff from resource-packs [#1](https://github.com/BEComTweaks/crafting-tweaks/pull/1)
 
 [Back to main website](https://becomtweaks.github.io)
