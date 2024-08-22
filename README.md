@@ -8,4 +8,4 @@
 <h1>Docs</h1>
 </div>
 
-Docs for the repositories in BEComTweaks. Currently a PR, was in the place of to-do-tracker.
+Docs for the repositories in BEComTweaks. Refer to https://becomtweaks.github.io/docs
