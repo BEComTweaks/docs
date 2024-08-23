@@ -9,8 +9,8 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 	- [ ] Show a visual progress on packs added
 - resource-packs
 	- [ ] Dark UI for Crafter
-- to-do-tracker
-    - [ ] Switch to docs
+	- [ ] Update `terrain_texture.json` for flattening of keys
+
 ## Completed
 - General
 	- Setup [becomtweaks.github.io](https://becomtweaks.github.io) as the landing page
