@@ -4,7 +4,7 @@ prev:
   link: 'index.md'
 next:
   text: 'JS Files'
-  link: 'js-files.md'
+  link: 'scripts/js-files.md'
 ---
 
 # Python Files

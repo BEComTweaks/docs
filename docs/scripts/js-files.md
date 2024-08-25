@@ -1,10 +1,10 @@
 ---
 prev:
   text: 'Python Files'
-  link: 'py-files.md'
+  link: 'scripts/py-files.md'
 next:
   text: 'Other JSONs'
-  link: 'other-jsons.md'
+  link: 'jsons/other-jsons.md'
 ---
 
 # JavaScript Files

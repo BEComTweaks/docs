@@ -1,7 +1,7 @@
 ---
 next:
   text: 'Python Files'
-  link: 'py-files.md'
+  link: 'scripts/py-files.md'
 ---
 # Welcome to the BEComTweaks docs!
 

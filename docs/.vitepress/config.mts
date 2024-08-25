@@ -16,21 +16,21 @@ export default defineConfig({
       {
         text: 'Scripts',
         items: [
-          { text: 'Python Files', link: 'py-files.md' },
-          { text: 'JS Files', link: 'js-files.md' }
+          { text: 'Python Files', link: 'scripts/py-files.md' },
+          { text: 'JS Files', link: 'scripts/js-files.md' }
         ]
       },
       {
         text: 'JSONs',
         items: [
-          { text: 'Other JSONs', link: 'other-jsons.md' },
-          { text: 'Pack JSONs', link: 'pack-jsons.md' }
+          { text: 'Other JSONs', link: 'jsons/other-jsons.md' },
+          { text: 'Pack JSONs', link: 'jsons/pack-jsons.md' }
         ]
       },
       {
         text: 'Misc',
         items: [
-          { text: 'To Do Tracker', link: 'to-do.md' }
+          { text: 'To Do Tracker', link: 'misc/to-do.md' }
         ]
       }
     ],
