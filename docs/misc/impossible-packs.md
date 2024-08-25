@@ -9,23 +9,23 @@ next:
 A non-exhaustive page on packs that will **NOT** be added to both BedrockTweaks due to Bedrock issues and DrAV's preferences.<br>Keep in mind that some might be added to BEComTweaks as toned-down versions.
 
 ## Resource Packs
-1. Bushy Leaves
+#### 1. Bushy Leaves
 
     There is no way to edit a block's geometry to make it bushy in Vanilla Bedrock. While pre-defined blockshapes can be used, with the closest one being Cactus, it does not match the original aesthetic of Bushy Leaves, hence why it is left out.
 
-2. Visual Cauldron Stages
+#### 2. Visual Cauldron Stages
 
     Cauldron does not support transparent textures, so just removing the center line doesn't help. Cauldrons do not have any visual changes when adding/removing water/powdered snow.<br>However, Lava Cauldrons do have a seperate Block State, but that misses the entire point of Visual Cauldron Stages.
 
-3. Visual Honey Stages
+#### 3. Visual Honey Stages
 
     This pack is available on [BEComTweaks](https://becomtweaks.github.io/resource-packs) in a toned-down way. The Bee Hive and Nest only visually change while full, so any other progress in-between cannot be shown in the pack. This prevents DrAV from adding the pack to BedrockTweaks
 
-4. Visual Noteblock Pitch
+#### 4. Visual Noteblock Pitch
 
     This pack is also available on [BEComTweaks](https://becomtweaks.github.io/resource-packs) in a different way. Noteblocks have no change in Block States when switching pitches or instruments, so having it change textures is out of the question. However, [lonelyang](https://github.com/lonelyang) discovered that you can edit the Particle emitted by the Note Block to show the current Pitch of it. Again, DrAV doesn't like the implementation of it and will not add it to Bedrock Tweaks
 
-5. Directional Droppers and Dispensers
+#### 5. Directional Droppers and Dispensers
     
     This is because of Minecraft Bedrock's issue. Mojang decided to combine both the sideways facing dropper textures and the vertical facing dropper textures into a single block without any blockstates.
 
@@ -55,15 +55,15 @@ A non-exhaustive page on packs that will **NOT** be added to both BedrockTweaks 
     Yeah, Mojang decided to set the Upwards and Downwards facing Dropper textures with East and South. They couldn't bother setting a special blockshape for them, like the hopper. What a party pooper.
     :::
 
-6. Most of the 3D Category
+#### 6. Most of the 3D Category
 
     Currently supported 3D Packs are 3D Mace and 3D Sun and Moon. [BEComTweaks](https://becomtweaks.github.io/resource-packs) also has 3D Fungi, but anything else is not possible mainly because custom geometry cannot be set for vanilla blocks. 3D Fungi itself was made using Azalea's Block Shape.
 
-7. Connected Textures
+#### 7. Connected Textures
 
     Only borderless versions, like Borderless Glass is available, as a block is unable to check whether there is another block of the same type touching it. Shaders could be made, but they aren't officially supported on the main version.
 
-8. Wavy Leaves
+#### 8. Wavy Leaves
 
     Either with a flipbook texture or shaders.
     - Shaders<br>
@@ -71,7 +71,7 @@ A non-exhaustive page on packs that will **NOT** be added to both BedrockTweaks 
     - Flipbook Texture<br>
         Very demanding, especially on mobile as it utilises extremely high resolution textures
 
-9. Fullbright/Hardcode Darkness/Warm Glow
+#### 9. Fullbright/Hardcode Darkness/Warm Glow
 
     No shader support.[^1]
 
@@ -81,14 +81,14 @@ None at the moment.
 
 ## Behaviour Packs
 
-1. Player Heads
+#### 1. Player Heads
 
     According to [SquatchHunter](https://github.com/SquatchHunter)
     > We cannot make HTTP requests that SAVE the result as a physical file. 
     >
     > On BDS servers (non-realms), HTTP requests can be made, but the result cannot be saved meaning we cannot make the pack "just work"
 
-2. Off-Hand
+#### 2. Off-Hand
 
     Let's go technical![^2]
 
