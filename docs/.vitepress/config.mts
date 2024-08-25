@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import footnote from 'markdown-it-footnote';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -30,7 +31,9 @@ export default defineConfig({
       {
         text: 'Misc',
         items: [
-          { text: 'To Do Tracker', link: 'misc/to-do.md' }
+          { text: 'To Do Tracker', link: 'misc/to-do.md' },
+          { text: "Frequently Asked Questions", link: 'misc/faq.md' },
+          { text: "Impossible Packs", link: 'misc/impossible-packs.md' }
         ]
       }
     ],
@@ -38,5 +41,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/BEComTweaks' }
     ]
+  },
+  markdown: {
+    config: (md) => {
+      md.use(footnote);
+    }
   }
 })

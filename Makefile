@@ -1,6 +1,6 @@
 build:
 	npm run docs:build
-preview:
+view-build:
 	npm run docs:preview
-dev:
+view-live:
 	npm run docs:dev
