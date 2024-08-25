@@ -102,7 +102,7 @@ Icon: Allows you to set a pack icon extension. Default is `png`, so you can set 
 > [!TIP]
 >
 > You can use any image file extensions! You aren't limited to just `gif` or `apng`.
-> However, make sure you do not add the colon <kbd>.</kbd>
+> However, make sure you do not add the period <kbd>.</kbd>
 ---
 Conflict: List of PackIDs of packs that conflict with the current one.
 ```json
