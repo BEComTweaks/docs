@@ -1,5 +1,7 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 import footnote from 'markdown-it-footnote';
+import taskLists from 'markdown-it-task-lists';
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -31,11 +33,11 @@ export default defineConfig({
       {
         text: 'Misc',
         items: [
-          { text: 'To Do Tracker', link: 'misc/to-do.md' },
-          { text: "Frequently Asked Questions", link: 'misc/faq.md' },
-          { text: "Impossible Packs", link: 'misc/impossible-packs.md' }
+          { text: "Impossible Packs", link: 'misc/impossible-packs.md' },
+          { text: "Frequently Asked Questions", link: 'misc/faq.md' }
         ]
-      }
+      },
+      { text: 'To Do Tracker', link: 'to-do.md' }
     ],
 
     socialLinks: [
@@ -45,6 +47,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(footnote);
+      md.use(taskLists);
     }
   }
 })
