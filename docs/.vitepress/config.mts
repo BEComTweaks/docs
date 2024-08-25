@@ -6,7 +6,7 @@ import taskLists from 'markdown-it-task-lists';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "BEComTweaks Docs",
-  description: "Docs for BEComTweaks, a fork of Bedrock Tweaks",
+  description: "Docs for Bedrock Edition Community Tweaks",
   base: '/docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

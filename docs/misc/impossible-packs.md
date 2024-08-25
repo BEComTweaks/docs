@@ -56,13 +56,13 @@ A non-exhaustive page on packs that will **NOT** be added to both BedrockTweaks 
 
 #### 6. Most of the 3D Category
 
-  Currently supported 3D Packs are 3D Mace and 3D Sun and Moon. [BEComTweaks](https://becomtweaks.github.io/resource-packs) also has 3D Fungi, but anything else is not possible mainly because custom geometry cannot be set for vanilla blocks. 3D Fungi itself was made using Azalea's Block Shape.
+  Currently supported 3D Packs are 3D Mace and 3D Sun and Moon. [BEComTweaks](https://becomtweaks.github.io/resource-packs) also has 3D Fungi, but anything else is not possible mainly because Custom Geometry cannot be set for Vanilla Blocks. 3D Fungi itself was made using Azalea's Block Shape.
 
 #### 7. Connected Textures
 
   Only borderless versions, like Borderless Glass is available, as a block is unable to check whether there is another block of the same type touching it. Shaders could be made, but they aren't officially supported on the main version.
 
-#### 8. Wavy Leaves
+#### 8. Wavy Leaves and Plants
 
   Either with a flipbook texture or shaders.
   - Shaders<br>
@@ -70,10 +70,64 @@ A non-exhaustive page on packs that will **NOT** be added to both BedrockTweaks 
   - Flipbook Texture<br>
     Very demanding, especially on mobile as it utilises extremely high resolution textures
 
-#### 9. Fullbright/Hardcode Darkness/Warm Glow
+#### 9. Fullbright/Hardcode Darkness/Warm Glow/Mob Spawn Indicator
 
   No shader support.[^1]
 
+#### 10. Endless End Rods
+
+  Requires a bit more testing. Theoretically, adding a `"blockshape": "block"` should fix it, but I have not tried it yet. Block Shape is also being deprecated, so DrAV refuses to add deprecated features.
+
+#### 11. Randomly Rotated Sunflowers / Taller Sunflowers
+
+  Custom Geometry can't be set for Vanilla Blocks.
+
+#### 12. Redstone Power Levels
+
+  No shader support.[^1]
+  There is a buggy version by dhan on mcpedl which doesn't show directions. [Link ↗](https://mcpedl.com/redstone-signal-indicator-for-mcpe/)
+
+#### 13. Groovy Levers
+
+  Custom Geometry can't be set for Vanilla Blocks.
+
+#### 14. Visual Sapling Growth
+
+  No block states to depend on to change textures.
+
+#### 15. No Beacon Beam
+
+  Beacon Beam doesn't support opacity, so if I put a transparent texture, the beam would just turn black.
+
+#### 16. Old Alex & Steve / Dungeons Alex & Steve
+
+  Minecraft no longer loads Alex and Steve textures from resource packs.
+
+#### 17. Big Dripleaf Stem Fix / Small Dripleaf Stem Fix
+
+  Can't make sure the stem properly use the texture, so it could result in the wrong side having no stems
+
+#### 18. Slime Particle Fix / Proper Break Particles / Don't Eat the Bowl
+
+  Vanilla bug that cannot be fixed. The particles' colors cannot be changed and are hardcoded by default.
+
+#### 19. Iron Bars Fix
+
+  General Issue. Z-Fighting cannot usually be fixed unless the shader is properly set or the cube is above the other cube by the smallest dimensions.
+  However, shaders can't be changed[^1] and custom geometry cannot be set.
+
+#### 20. Pixel Consistent Trip Wire
+
+  Custom Geometry can't be set for Vanilla Blocks.
+
+#### 21. Diminshing Tools
+
+  The current durability can be obtained, but the item texture cannot be changed based on the durability. Even if it was able to, there would be a ton of textures, lagging the game a lot.
+
+#### 22. Spinning Skull on Fire Painting
+
+  Minecraft Bedrock has all the painting in a single PNG file of resolution 256x256. There are, at minimum, 12 frames. The resolution would become 256x3072. Yeah.
+  
 ## Crafting Tweaks
 
 None at the moment.
