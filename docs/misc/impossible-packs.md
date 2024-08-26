@@ -136,10 +136,13 @@ None at the moment.
 
 #### 1. Player Heads
 
-  According to [SquatchHunter](https://github.com/SquatchHunter)
-  > We cannot make HTTP requests that SAVE the result as a physical file. 
-  >
-  > On BDS servers (non-realms), HTTP requests can be made, but the result cannot be saved meaning we cannot make the pack "just work"
+  **Player Drop Heads** is entirely possible as the game stands right now, but not how you would expect it to function. World Owners would have to do a bit or a lot of manual file editting to make the packs work, and you would be responsible for keeping it up to date as best as you can - we provide the script you provide the textures sort of arrangement.
+  ::: details Technical Jargon & Reasoning
+  The main reason a pack like this would work in game is its quite easy to make a custom block with the skull geometry and provide a flattened player skin (or part of it) so that the block will have all the correct textures on each side to represent the head, the issue stems from we have no way of doing just that without manually doing it.
+  Whilst yes there is a HTTP library as part of the @minecraft Scripting API (not to be confused with Legacy Scripting), we cannot save the result of the call to the file system the server is running on, even with Bedrock Dedicated Server Software (the only place that currently is even allowed to use the HTTP library). So we cannot generate the "player head" blocks in runtime, which is ideally how and when it should be done so our pack remains small in size and compatible with everyone's systems.
+  :::
+  There is hope and a possible solution, but its ugly. If someone was willing to put the effort into making a "Player Head Generator" we could ask players to upload their skins, then the system would generate a pack including all the skins they wanted (like Hermit Heads + our ugly mugs on the dev team) and their own, they could then use the generated pack. However this would require significant resources that DrAv cannot spare.
+  > [SquatchHunter](https://github.com/SquatchHunter), **Official Moderator of Drav.dev Discord**.
 
 #### 2. Off-Hand
 
