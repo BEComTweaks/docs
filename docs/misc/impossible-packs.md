@@ -142,7 +142,7 @@ None at the moment.
   Whilst yes there is a HTTP library as part of the @minecraft Scripting API (not to be confused with Legacy Scripting), we cannot save the result of the call to the file system the server is running on, even with Bedrock Dedicated Server Software (the only place that currently is even allowed to use the HTTP library). So we cannot generate the "player head" blocks in runtime, which is ideally how and when it should be done so our pack remains small in size and compatible with everyone's systems.
   :::
   There is hope and a possible solution, but its ugly. If someone was willing to put the effort into making a "Player Head Generator" we could ask players to upload their skins, then the system would generate a pack including all the skins they wanted (like Hermit Heads + our ugly mugs on the dev team) and their own, they could then use the generated pack. However this would require significant resources that DrAv cannot spare.
-  - [SquatchHunter](https://github.com/SquatchHunter), **Official Moderator of Drav.dev Discord**.
+  > [SquatchHunter](https://github.com/SquatchHunter), **Official Moderator of Drav.dev Discord**.
 
 #### 2. Off-Hand
 
