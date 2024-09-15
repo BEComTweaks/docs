@@ -76,7 +76,7 @@ A non-exhaustive page on packs that will **NOT** be added to both BedrockTweaks 
 
 #### 10. Endless End Rods
 
-  Requires a bit more testing. Theoretically, adding a `"blockshape": "block"` should fix it, but I have not tried it yet. Block Shape is also being deprecated, so DrAV refuses to add deprecated features.
+  Requires a bit more testing. Theoretically, adding a `"blockshape": "block"` should fix it, but the block turns black.
 
 #### 11. Randomly Rotated Sunflowers / Taller Sunflowers
 
