@@ -9,7 +9,7 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 	- [ ] Show a visual progress on packs added
 - resource-packs
 	- [ ] Dark UI for Crafter
-	- [ ] Update `terrain_texture.json` for flattening of keys
+	- [ ] Remove Endless End Rods (they are bugged)
 
 ## Completed
 - General
@@ -35,6 +35,7 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 		- Quieter Breezes, Armadillos and Skeletons
 		- Soyjak Vault
 		- Pottery Sherd to Shard for new Sherds
+	- Update `terrain_texture.json` for flattening of keys
 - behaviour-packs
 	- Make Credits Footer use white text
 	- Update backend with stuff from resource-packs [#1](https://github.com/BEComTweaks/behaviour-packs/pull/1)
