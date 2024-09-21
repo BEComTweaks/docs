@@ -6,13 +6,17 @@ next: false
 Stuff to do or in progress.<br>Feel free to help me with these!
 ## Incomplete
 - General
- - Show whether pack is being fetched
-  - [x] Resource Packs
-  - [ ] Behaviour Packs
-  - [ ] Crafting Tweaks
- - [ ] Update CTs and BPs for change in workflow and pre_commit scripts
+  - Show whether pack is being fetched
+    - [x] Resource Packs
+    - [ ] Behaviour Packs
+    - [ ] Crafting Tweaks
+  - Update CTs and BPs for change in workflow and pre_commit scripts
+  - Add docs to the large nav bar
+    - [ ] Resource Packs
+    - [ ] Behaviour Packs
+    - [ ] Crafting Tweaks
 - resource-packs
-	- [ ] Dark UI for Crafter
+	 - Dark UI for Crafter
 
 ## Completed
 - General
