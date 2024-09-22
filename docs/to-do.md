@@ -6,11 +6,10 @@ next: false
 Stuff to do or in progress.<br>Feel free to help me with these!
 ## Incomplete
 - General
-  - Show whether pack is being fetched
-    - [x] Resource Packs
-    - [ ] Behaviour Packs
-    - [ ] Crafting Tweaks
-  - Update CTs and BPs for change in workflow and pre_commit scripts
+  - Show whether pack is being fetched (need to merge)
+    - [x] Resource Packs [#25](https://github.com/BEComTweaks/resource-packs/pull/25)
+    - [x] Behaviour Packs [#2](https://github.com/BEComTweaks/behaviour-packs/pull/2)
+    - [x] Crafting Tweaks [#1](https://github.com/BEComTweaks/crafting-tweaks/pull/1)
   - Add docs to the large nav bar
     - [ ] Resource Packs
     - [ ] Behaviour Packs
