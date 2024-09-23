@@ -6,10 +6,6 @@ next: false
 Stuff to do or in progress.<br>Feel free to help me with these!
 ## Incomplete
 - General
-  - Show whether pack is being fetched (need to merge)
-    - [x] Resource Packs [#25](https://github.com/BEComTweaks/resource-packs/pull/25)
-    - [x] Behaviour Packs [#2](https://github.com/BEComTweaks/behaviour-packs/pull/2)
-    - [x] Crafting Tweaks [#1](https://github.com/BEComTweaks/crafting-tweaks/pull/1)
   - Add docs to the large nav bar
     - [ ] Resource Packs
     - [ ] Behaviour Packs
@@ -27,6 +23,10 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 	- Make a menu bar
 	- Make subcategories a thing
 	- Make opening categories animated instead of it showing instantly [#23](https://github.com/BEComTweaks/resource-packs/pull/23)
+    - Show whether pack is being fetched (need to merge)
+        - [x] Resource Packs [#25](https://github.com/BEComTweaks/resource-packs/pull/25)
+        - [x] Behaviour Packs [#2](https://github.com/BEComTweaks/behaviour-packs/pull/2)
+        - [x] Crafting Tweaks [#1](https://github.com/BEComTweaks/crafting-tweaks/pull/1)
 - resource-packs
 	- Make Credits Footer use white text
 	- Fix pre_commit.py for the index.html changes and make it use a formatted version
