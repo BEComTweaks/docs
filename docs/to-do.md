@@ -5,13 +5,9 @@ next: false
 # To-Do Tracker
 Stuff to do or in progress.<br>Feel free to help me with these!
 ## Incomplete
-- General
-  - Add docs to the large nav bar
-    - [ ] Resource Packs
-    - [ ] Behaviour Packs
-    - [ ] Crafting Tweaks
 - resource-packs
-	 - Dark UI for Crafter
+	- Dark UI for Crafter
+	- Finish Clear Blocks Category [#26](https://github.com/BEComTweaks/resource-packs/pull/26)
 
 ## Completed
 - General
@@ -24,9 +20,13 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 	- Make subcategories a thing
 	- Make opening categories animated instead of it showing instantly [#23](https://github.com/BEComTweaks/resource-packs/pull/23)
     - Show whether pack is being fetched (need to merge)
-        - [x] Resource Packs [#25](https://github.com/BEComTweaks/resource-packs/pull/25)
-        - [x] Behaviour Packs [#2](https://github.com/BEComTweaks/behaviour-packs/pull/2)
-        - [x] Crafting Tweaks [#1](https://github.com/BEComTweaks/crafting-tweaks/pull/1)
+        - Resource Packs [#25](https://github.com/BEComTweaks/resource-packs/pull/25)
+        - Behaviour Packs [#2](https://github.com/BEComTweaks/behaviour-packs/pull/2)
+        - Crafting Tweaks [#1](https://github.com/BEComTweaks/crafting-tweaks/pull/1)
+  - Add docs to the large nav bar
+    - Resource Packs [`@ 0b18283`](https://github.com/BEComTweaks/resource-packs/commit/0b18283e70f7a154334b1074be877c7925320149)
+    - Behaviour Packs [`@ 3e90363`](https://github.com/BEComTweaks/behaviour-packs/commit/3e90363ac8af48b7324546dedab1555ffd47f775)
+    - Crafting Tweaks [`@ 050b2f0`](https://github.com/BEComTweaks/crafting-tweaks/commit/050b2f02a61732aa1d627351457953c150327957)
 - resource-packs
 	- Make Credits Footer use white text
 	- Fix pre_commit.py for the index.html changes and make it use a formatted version
