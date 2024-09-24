@@ -8,6 +8,7 @@ export default defineConfig({
   title: "BEComTweaks Docs",
   description: "Docs for Bedrock Edition Community Tweaks",
   base: '/docs/',
+  head: [['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/BEComTweaks/becomtweaks.github.io/refs/heads/main/icon.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
