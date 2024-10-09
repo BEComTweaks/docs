@@ -3,6 +3,9 @@ prev: false
 next:
   text: 'FAQ'
   link: 'misc/faq.md'
+mentions:
+  - NSPC911
+  - SquatchHunter
 ---
 
 # Impossible Packs
@@ -18,11 +21,15 @@ A non-exhaustive page on packs that will **NOT** be added to both BedrockTweaks 
 
 #### 3. Visual Honey Stages
 
-  This pack is available on [BEComTweaks](https://becomtweaks.github.io/resource-packs) in a toned-down way. The Bee Hive and Nest only visually change while full, so any other progress in-between cannot be shown in the pack. This prevents DrAV from adding the pack to BedrockTweaks
+  The Bee Hive and Nest only visually change while full, so any other progress in-between cannot be shown in the pack. This prevents DrAV from adding the pack to BedrockTweaks
+  
+  Available on BEComTweaks. [Link ↗](https://becomtweaks.github.io/resource-packs/?st_raw=N4IgTghg7iBcDaIBiBXANmgEgewHYFMBPAZQBcIBzfEAXQF8g)
 
 #### 4. Visual Noteblock Pitch
 
-  This pack is also available on [BEComTweaks](https://becomtweaks.github.io/resource-packs) in a different way. Noteblocks have no change in Block States when switching pitches or instruments, so having it change textures is out of the question. However, [lonelyang](https://github.com/lonelyang) discovered that you can edit the Particle emitted by the Note Block to show the current Pitch of it. Again, DrAV doesn't like the implementation of it and will not add it to Bedrock Tweaks
+  Noteblocks have no change in Block States when switching pitches or instruments, so having it change textures is out of the question. However, [lonelyang](https://github.com/lonelyang) discovered that you can edit the Particle emitted by the Note Block to show the current Pitch of it. Again, DrAV doesn't like the implementation of it and will not add it to Bedrock Tweaks
+
+  Available on BEComTweaks. [Link ↗](https://becomtweaks.github.io/resource-packs/?st_raw=N4IgTghg7iBcDaIByB7ALgUwEIBsUGMBrABQEs18ALYiMNU-HDEAXQF8g)
 
 #### 5. Directional Droppers and Dispensers
   
@@ -54,6 +61,8 @@ A non-exhaustive page on packs that will **NOT** be added to both BedrockTweaks 
   Yeah, Mojang decided to set the Upwards and Downwards facing Dropper textures with East and South. They couldn't bother setting a special blockshape for them, like the hopper. What a party pooper.
   :::
 
+  Available on BEComTweaks. [Link ↗](https://becomtweaks.github.io/resource-packs/?st_raw=N4IgTghg7iBcDaIAiBLMBTAxgFxQewDsIAbVAZwAd0Cz0wyQAaZNLXQkpMPCq%2BkALoBfIA)
+  
 #### 6. Most of the 3D Category
 
   Currently supported 3D Packs are 3D Mace and 3D Sun and Moon. [BEComTweaks](https://becomtweaks.github.io/resource-packs) also has 3D Fungi, but anything else is not possible mainly because Custom Geometry cannot be set for Vanilla Blocks. 3D Fungi itself was made using Azalea's Block Shape.
