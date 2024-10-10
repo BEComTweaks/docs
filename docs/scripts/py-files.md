@@ -1,10 +1,10 @@
 ---
 prev:
-  text: 'Home'
-  link: 'index.md'
+  text: 'Creating a new pack'
+  link: 'getting-started/new-pack'
 next:
-  text: 'JS Files'
-  link: 'scripts/js-files.md'
+  text: 'Other JSONS'
+  link: 'jsons/other-jsons'
 ---
 
 # Python Files
@@ -67,7 +67,7 @@ Does 3 processes
 
 1. Counts finished packs, compatibility subpacks and pack icons, while making the HTML for the site
 2. Updates [incomplete_packs.json](https://github.com/BEComTweaks/resource-packs/blob/main/jsons/others/incomplete_packs.json), [incomplete_compatibilities.json](https://github.com/BEComTweaks/resource-packs/blob/main/jsons/others/incomplete_compatibilities.json), [incomplete_pack_icons.json](https://github.com/BEComTweaks/resource-packs/blob/main/jsons/others/incomplete_pack_icons.json), [name_to_json.json](https://github.com/BEComTweaks/resource-packs/blob/main/jsons/others/name_to_json.json) and [index.html](https://github.com/BEComTweaks/resource-packs/blob/main/webUI/index.html)
-3. Updates README.md with the numbers from above
+3. Updates README with the numbers from above
 
 ::: details Flags:
 
@@ -87,7 +87,7 @@ Two options:
    Takes a directory as an input.<br>
    Opens all PNG files, changes the colour by ±6 **except opacity**<br>
    Example:<br>
-   - If a pixel is rgba(236,185,212,255), it can change it to rgba(237,184,214,255)
+   - If a pixel is `rgba(236,185,212,255)`, it can change it to `rgba(237,184,214,255)`
 2. Compress Images
    Takes a directory as an input.<br>
    Opens all PNG files in directory **and subdirectories**, and compresses it by a number entered.

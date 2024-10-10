@@ -1,10 +1,10 @@
 ---
 prev:
-  text: 'JS Files'
-  link: 'scripts/js-files.md'
+  text: 'Python Files'
+  link: 'scripts/py-files'
 next:
   text: 'Pack JSONs'
-  link: 'jsons/pack-jsons.md'
+  link: 'jsons/pack-jsons'
 ---
 
 # Other JSON Files

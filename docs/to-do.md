@@ -7,7 +7,6 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 ## Incomplete
 - resource-packs
 	- Dark UI for Crafter
-	- Finish Clear Blocks Category [#26](https://github.com/BEComTweaks/resource-packs/pull/26)
 
 ## Completed
 - General
@@ -43,6 +42,7 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 		- Pottery Sherd to Shard for new Sherds
 	- Update `terrain_texture.json` for flattening of keys
 	- Remove Endless End Rods (they are bugged)
+	- Finish Clear Blocks Category [#26](https://github.com/BEComTweaks/resource-packs/pull/26)
 - behaviour-packs
 	- Make Credits Footer use white text
 	- Update backend with stuff from resource-packs [#1](https://github.com/BEComTweaks/behaviour-packs/pull/1)

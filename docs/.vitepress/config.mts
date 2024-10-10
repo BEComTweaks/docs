@@ -17,28 +17,35 @@ export default defineConfig({
     ],
 
     sidebar: [
+      { text: 'Getting Started',
+        items: [
+          { text: 'Setting Up', link: 'getting-started/setting-up' }
+          // { text: 'New Pack', link: 'getting-started/new-pack' }
+          // { text: 'New Category', link: 'getting-started/new-category' }
+        ]
+      },
       {
         text: 'Scripts',
         items: [
-          { text: 'Python Files', link: 'scripts/py-files.md' },
-          { text: 'JS Files', link: 'scripts/js-files.md' }
+          { text: 'Python Files', link: 'scripts/py-files' }
+          // { text: 'JS Files', link: 'scripts/js-files' }
         ]
       },
       {
         text: 'JSONs',
         items: [
-          { text: 'Other JSONs', link: 'jsons/other-jsons.md' },
-          { text: 'Pack JSONs', link: 'jsons/pack-jsons.md' }
+          { text: 'Other JSONs', link: 'jsons/other-jsons' },
+          { text: 'Pack JSONs', link: 'jsons/pack-jsons' }
         ]
       },
       {
         text: 'Misc',
         items: [
-          { text: "Impossible Packs", link: 'misc/impossible-packs.md' },
-          { text: "Frequently Asked Questions", link: 'misc/faq.md' }
+          { text: "Impossible Packs", link: 'misc/impossible-packs' },
+          { text: "Frequently Asked Questions", link: 'misc/faq' }
         ]
       },
-      { text: 'To Do Tracker', link: 'to-do.md' }
+      { text: 'To Do Tracker', link: 'to-do' }
     ],
 
     socialLinks: [

@@ -2,7 +2,7 @@
 prev: false
 next:
   text: 'FAQ'
-  link: 'misc/faq.md'
+  link: 'misc/faq'
 mentions:
   - NSPC911
   - SquatchHunter

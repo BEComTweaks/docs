@@ -1,7 +1,7 @@
 ---
 prev:
   text: 'Impossible Packs'
-  link: 'misc/impossible-packs.md'
+  link: 'misc/impossible-packs'
 next: false
 ---
 # FAQ

@@ -1,7 +1,7 @@
 ---
 prev:
   text: 'Other JSONs'
-  link: 'jsons/other-jsons.md'
+  link: 'jsons/other-jsons'
 next: false
 ---
 # Pack JSON Files
