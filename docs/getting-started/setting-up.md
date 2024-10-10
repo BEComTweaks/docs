@@ -35,7 +35,7 @@ You will need
     ```
     - Type in `0` to not print anything.
 
-## Settig up the server
+## Setting up the server
 
 1. Clone the repository
 
