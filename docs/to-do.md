@@ -7,7 +7,8 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 ## Incomplete
 - resource-packs
 	- Dark UI for Crafter
-	- Do the monthly pull from [BedrockTweaks/Files](https://github.com/BedrockTweaks/Files) - [`october-pull`](https://github.com/BEComTweaks/resource-packs/tree/october-pull)
+	- Do the monthly pull from [BedrockTweaks/Files](https://github.com/BedrockTweaks/Files) [#30](https://github.com/BEComTweaks/resource-packs/pull/30)
+	- Pull [BedrockTweaks/Files](https://github.com/BedrockTweaks/Files/pull/317)
 
 ## Completed
 - General
