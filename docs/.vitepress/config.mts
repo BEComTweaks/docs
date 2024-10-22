@@ -13,7 +13,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: 'https://becomtweaks.github.io' },
-      { text: 'to-do', link: 'to-do'}
+      { text: 'To-Do', link: 'to-do'},
+      { text: 'Discord', link: 'https://discord.gg/pWqvfYYDJ4' }
     ],
 
     sidebar: [

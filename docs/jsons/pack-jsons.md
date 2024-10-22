@@ -17,10 +17,8 @@ Here is a template on the pack json
       "pack_id": "pack_name with no space",
       "pack_name": "name of pack",
       "pack_description": "description of pack",
-      "details": {
-        "message": ["warn (red)/error (orange)/info (cyan)", "message for it"],
-        "icon": "gif/apng/*"
-      },
+      "message": ["warn (red)/error (orange)/info (cyan)", "message for it"],
+      "icon": "gif/apng/*",
       "conflict": ["packid of conflicting pack"],
       "compatibility": ["packid of compatible pack"]
     }
@@ -56,7 +54,7 @@ Pack ID: Your Pack's ID.
 ```
 > [!NOTE]
 > 
-> Currently, the ID is to just remove spaces in a Pack Name. Will get around to changing it _one day_.
+> Most Pack IDs are simply Pack Names with no Special Characters and Spaces. You can keep to it or name it based on the Sub-Category.
 ---
 Pack Name: Your Pack's Name.
 ```json
@@ -69,24 +67,18 @@ Pack Description: Your Pack's Description.
 ```json
       "pack_name": "name of pack",
       "pack_description": "description of pack", // [!code focus]
-      "details": {
+      "message": ["warn (red)/error (orange)/info (cyan)", "message for it"],
 ```
 ---
-Details: Additional Information
-```json
-      "pack_description": "description of pack",
-      "details: { // [!code focus]
-        "message": ["warn (red)/error (orange)/info (cyan)", "message for it"],
-```
-> [!TIP]
+> [!NOTE]
 >
-> Leave this out if you do not have a `message` or custom `icon` for a cleaner file.
+> The following are not compulsory.
 ---
 Message: Provide extra info on a pack.
 ```json
-      "details": {
-        "message": ["warn (red)/error (orange)/info (cyan)", "message for it"], // [!code focus]
-        "icon": "gif/apng/*"
+      "pack_description": "description of pack",
+      "message": ["warn (red)/error (orange)/info (cyan)", "message for it"], // [!code focus]
+      "icon": "gif/apng/*",
 ```
 > [!IMPORTANT]
 >
@@ -95,9 +87,9 @@ Message: Provide extra info on a pack.
 ---
 Icon: Allows you to set a pack icon extension. Default is `png`, so you can set it to `apng`, `gif` or `jpeg` if you want.
 ```json
-        "message": ["warn (red)/error (orange)/info (cyan)", "message for it"],
-        "icon": "gif/apng/*" // [!code focus]
-      },
+      "message": ["warn (red)/error (orange)/info (cyan)", "message for it"],
+      "icon": "gif/apng/*", // [!code focus]
+      "conflict": ["packid of conflicting pack"],
 ```
 > [!TIP]
 >
@@ -106,7 +98,7 @@ Icon: Allows you to set a pack icon extension. Default is `png`, so you can set 
 ---
 Conflict: List of PackIDs of packs that conflict with the current one.
 ```json
-      },
+      "icon": "gif/apng/*",
       "conflict": ["packid of conflicting pack"], // [!code focus]
       "compatibility": ["packid of compatible pack"]
 ```

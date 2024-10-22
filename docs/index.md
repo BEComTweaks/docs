@@ -14,12 +14,12 @@ hero:
     text: Get Started!
     link: getting-started/setting-up
   - theme: alt
-    text: GitHub
-    link: https://github.com/BEComTweaks/docs
+    text: Discord
+    link: https://discord.gg/pWqvfYYDJ4
   image:
     src: https://raw.githubusercontent.com/BEComTweaks/becomtweaks.github.io/refs/heads/main/icon.png
     alt: BEComTweaks Logo
-  
+
 features:
 - icon: 📦
   title: Open-Source
