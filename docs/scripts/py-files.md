@@ -79,18 +79,5 @@ Does 3 processes
 
 :::
 
-## [image_utils.py](https://github.com/BEComTweaks/resource-packs/blob/main/pys/image_utils.py)
-
-Two options:
-
-1. Tweak Images<br>
-   Takes a directory as an input.<br>
-   Opens all PNG files, changes the colour by ±6 **except opacity**<br>
-   Example:<br>
-   - If a pixel is `rgba(236,185,212,255)`, it can change it to `rgba(237,184,214,255)`
-2. Compress Images
-   Takes a directory as an input.<br>
-   Opens all PNG files in directory **and subdirectories**, and compresses it by a number entered.
-
 If you want a better explanation, there are comments in each script and have a more detailed explanation on what is
 going on.
