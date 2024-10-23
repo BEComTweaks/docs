@@ -7,6 +7,8 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 ## Incomplete
 - General
 	- Make a proper footer aside from the credits footer
+	- Make priority a thing as well
+		- Probably like if `"priority": true` then replace any already-existing files
 - docs
 	- Finish it up! <!--too lazy-->
 - resource-packs
