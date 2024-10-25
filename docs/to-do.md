@@ -6,9 +6,7 @@ next: false
 Stuff to do or in progress.<br>Feel free to help me with these!
 ## Incomplete
 - General
-	- Make a proper footer aside from the credits footer
-	- Make priority a thing as well
-		- Probably like if `"priority": true` then replace any already-existing files
+	- Make a proper footer aside from the credits footer(
 - docs
 	- Finish it up! <!--too lazy-->
 - resource-packs
@@ -59,5 +57,7 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 	- Make Credits Footer use white text
 	- Fix crafting tweaks not showing pack icons
 	- Update backend with stuff from resource-packs [#1](https://github.com/BEComTweaks/crafting-tweaks/pull/1)
-
+- server-backend
+	- Make priority a thing
+		- Probably like if `"priority": true` then replace any already-existing files [`@e03e28`](https://github.com/BEComTweaks/server-backend/commit/e03e282ad75fa4cd8f3de1b3dc6d972d506faabf)
 <sub>Yes, I am using docs as a to-do tracker. Any issues?</sub>

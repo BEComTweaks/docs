@@ -19,6 +19,7 @@ Here is a template on the pack json
       "pack_description": "description of pack",
       "message": ["warn (red)/error (orange)/info (cyan)", "message for it"],
       "icon": "gif/apng/*",
+      "priority": true,
       "conflict": ["packid of conflicting pack"],
       "compatibility": ["packid of compatible pack"]
     }
@@ -89,16 +90,26 @@ Icon: Allows you to set a pack icon extension. Default is `png`, so you can set 
 ```json
       "message": ["warn (red)/error (orange)/info (cyan)", "message for it"],
       "icon": "gif/apng/*", // [!code focus]
-      "conflict": ["packid of conflicting pack"],
+      "priority": true,
 ```
 > [!TIP]
 >
 > You can use any image file extensions! You aren't limited to just `gif` or `apng`.
 > However, make sure you do not add the period <kbd>.</kbd>
 ---
-Conflict: List of PackIDs of packs that conflict with the current one.
+Priority: Sets the pack as the higher priority and overwrites conflicting textures.
 ```json
       "icon": "gif/apng/*",
+      "priority": true,
+      "conflict": ["packid of conflicting pack"],
+```
+> [!TIP]
+>
+> Default is `false`, so you don't have to specify it.
+---
+Conflict: List of PackIDs of packs that conflict with the current one.
+```json
+      "priority": true,
       "conflict": ["packid of conflicting pack"], // [!code focus]
       "compatibility": ["packid of compatible pack"]
 ```
