@@ -5,6 +5,8 @@ prev:
 next:
   text: 'Other JSONS'
   link: 'jsons/other-jsons'
+mentions:
+  - NSPC911
 ---
 
 # Python Files
@@ -81,3 +83,5 @@ Does 3 processes
 
 If you want a better explanation, there are comments in each script and have a more detailed explanation on what is
 going on.
+
+<Contributors />

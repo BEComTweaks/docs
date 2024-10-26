@@ -3,6 +3,8 @@ prev:
   text: 'Impossible Packs'
   link: 'misc/impossible-packs'
 next: false
+mentions:
+  - NSPC911
 ---
 # FAQ
 
@@ -18,3 +20,5 @@ next: false
 The list will continue to expand as more questions are asked.
 
 [^1]: It is on the sidebar and the previous page. I can't set the proper link to it as it is taken as a dead link for some reason.
+
+<Contributors />

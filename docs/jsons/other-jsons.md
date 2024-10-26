@@ -5,6 +5,8 @@ prev:
 next:
   text: 'Pack JSONs'
   link: 'jsons/pack-jsons'
+mentions:
+  - NSPC911
 ---
 
 # Other JSON Files
@@ -41,3 +43,5 @@ aesthetic.json
 
 ## [template.json](https://github.com/BEComTweaks/resource-packs/blob/main/jsons/others/template.json)
 - Template on creating a new category and the features available.
+
+<Contributors />

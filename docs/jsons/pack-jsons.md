@@ -3,6 +3,8 @@ prev:
   text: 'Other JSONs'
   link: 'jsons/other-jsons'
 next: false
+mentions:
+  - NSPC911
 ---
 # Pack JSON Files
 
@@ -38,7 +40,7 @@ Topic: Basically names your category.
 ```
 ---
 Subcategory of: The parent category. Exists for subcategories to mark that they are subcategories of a certain category.
-```json
+```json:line-numbers=2
   "topic": "Category",
   "subcategory_of": "Parent Category", // [!code focus]
   "packs": [
@@ -48,7 +50,7 @@ Subcategory of: The parent category. Exists for subcategories to mark that they 
 > If the category is not defined as a subcategory, this will be skipped.
 ---
 Pack ID: Your Pack's ID.
-```json
+```json:line-numbers=4
     {
       "pack_id": "pack_name with no space", // [!code focus]
       "pack_name": "name of pack",
@@ -58,14 +60,14 @@ Pack ID: Your Pack's ID.
 > Most Pack IDs are simply Pack Names with no Special Characters and Spaces. You can keep to it or name it based on the Sub-Category.
 ---
 Pack Name: Your Pack's Name.
-```json
+```json:line-numbers=5
       "pack_id": "pack_name with no space",
       "pack_name": "name of pack", // [!code focus]
       "pack_description": "description of pack",
 ```
 ---
 Pack Description: Your Pack's Description.
-```json
+```json:line-numbers=6
       "pack_name": "name of pack",
       "pack_description": "description of pack", // [!code focus]
       "message": ["warn (red)/error (orange)/info (cyan)", "message for it"],
@@ -76,7 +78,7 @@ Pack Description: Your Pack's Description.
 > The following are not compulsory.
 ---
 Message: Provide extra info on a pack.
-```json
+```json:line-numbers=7
       "pack_description": "description of pack",
       "message": ["warn (red)/error (orange)/info (cyan)", "message for it"], // [!code focus]
       "icon": "gif/apng/*",
@@ -87,7 +89,7 @@ Message: Provide extra info on a pack.
 > You also need to provide a message for it.
 ---
 Icon: Allows you to set a pack icon extension. Default is `png`, so you can set it to `apng`, `gif` or `jpeg` if you want.
-```json
+```json:line-numbers=8
       "message": ["warn (red)/error (orange)/info (cyan)", "message for it"],
       "icon": "gif/apng/*", // [!code focus]
       "priority": true,
@@ -98,9 +100,9 @@ Icon: Allows you to set a pack icon extension. Default is `png`, so you can set 
 > However, make sure you do not add the period <kbd>.</kbd>
 ---
 Priority: Sets the pack as the higher priority and overwrites conflicting textures.
-```json
+```json:line-numbers=9
       "icon": "gif/apng/*",
-      "priority": true,
+      "priority": true, // [!code focus]
       "conflict": ["packid of conflicting pack"],
 ```
 > [!TIP]
@@ -108,14 +110,14 @@ Priority: Sets the pack as the higher priority and overwrites conflicting textur
 > Default is `false`, so you don't have to specify it.
 ---
 Conflict: List of PackIDs of packs that conflict with the current one.
-```json
+```json:line-numbers=10
       "priority": true,
       "conflict": ["packid of conflicting pack"], // [!code focus]
       "compatibility": ["packid of compatible pack"]
 ```
 ---
 Compatibility: List of PackIDs of packs that have custom compatibilities made for them
-```json
+```json:line-numbers=11
       "conflict": ["packid of conflicting pack"],
       "compatibility": ["packid of compatible pack"] // [!code focus]
     }
@@ -123,3 +125,5 @@ Compatibility: List of PackIDs of packs that have custom compatibilities made fo
 > [!TIP]
 >
 > After creating a compatibility, make sure to run [./pys/folder_creator.py](https://github.com/BEComTweaks/resource-packs/blob/main/pys/folder_creator.py) to create a respective folder for it.
+
+<Contributors />

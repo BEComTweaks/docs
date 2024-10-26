@@ -5,6 +5,8 @@ prev:
 next:
     text: Creating a new Pack
     link: getting-started/new-pack
+mentions:
+  - NSPC911
 ---
 # Setting up the local respository
 
@@ -58,3 +60,5 @@ You will need
 
 ---
 That's it!
+
+<Contributors />

@@ -10,6 +10,10 @@ export default defineConfig({
   base: '/docs/',
   head: [['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/BEComTweaks/becomtweaks.github.io/refs/heads/main/icon.png' }]],
   themeConfig: {
+    editLink: {
+      pattern: "https://github.com/BEComTweaks/docs/tree/main/docs/:path",
+      text: "Edit this page"
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: 'https://becomtweaks.github.io' },
@@ -57,6 +61,7 @@ export default defineConfig({
     config: (md) => {
       md.use(footnote);
       md.use(taskLists);
-    }
+    },
+    lineNumbers: true
   }
 })
