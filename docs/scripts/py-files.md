@@ -11,7 +11,7 @@ mentions:
 
 # Python Files
 
-There are a couple scripts and functions that is available in the `.\pys` directory.
+There are a couple scripts and functions that are available in the `.\pys` directory.
 
 Read their comments to understand more.
 All links lead to the [resource-packs](https://github.com/BEComTweaks/resource-packs) version of the scripts
@@ -73,10 +73,10 @@ Does 3 processes
 
 ::: details Flags:
 
-<kbd>--use-relative-location</kbd>
+<kbd>--use-relative-location, -rl</kbd>
 - Uses relative location in your folder than the Web URL version
 
-<kbd>--format</kbd>
+<kbd>--format, -f</kbd>
 - Uses [Prettier](https://prettier.io/) to make code look better
 
 :::
