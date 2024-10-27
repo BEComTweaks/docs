@@ -186,7 +186,7 @@
   transition: transform 0.5s ease;
 }
 
-.avatar-img {
+.avatar-img-hitbox .avatar-img {
   width: 37.5px;
   height: 37.5px;
   border-radius: 50%;

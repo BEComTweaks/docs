@@ -15,7 +15,7 @@ hero:
     link: getting-started/setting-up
   - theme: alt
     text: Discord
-    link: https://discord.gg/pWqvfYYDJ4
+    link: https://discord.gg/3aUaGPYqsr
   image:
     src: https://raw.githubusercontent.com/BEComTweaks/becomtweaks.github.io/refs/heads/main/icon.png
     alt: BEComTweaks Logo
