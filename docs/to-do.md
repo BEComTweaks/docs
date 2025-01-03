@@ -10,9 +10,6 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 	- Make a proper footer aside from the credits footer
 - docs
 	- Finish it up! <!--too lazy-->
-- resource-packs
-	- Dark UI for Crafter
-	- Fix packs for 1.21.40
 
 ## Completed
 - General
@@ -55,6 +52,7 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 	- Finish Clear Blocks Category [#26](https://github.com/BEComTweaks/resource-packs/pull/26)
 	- Do the monthly pull from [BedrockTweaks/Files](https://github.com/BedrockTweaks/Files) [#30](https://github.com/BEComTweaks/resource-packs/pull/30)
 	- Pull [BedrockTweaks/Files #317](https://github.com/BedrockTweaks/Files/pull/317)
+	- Fix packs for 1.21.40
 - behaviour-packs
 	- Make Credits Footer use white text
 	- Update backend with stuff from resource-packs [#1](https://github.com/BEComTweaks/behaviour-packs/pull/1)
