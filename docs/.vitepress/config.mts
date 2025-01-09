@@ -24,9 +24,10 @@ export default defineConfig({
     sidebar: [
       { text: 'Getting Started',
         items: [
-          { text: 'Setting Up', link: 'getting-started/setting-up' }
-          // { text: 'New Pack', link: 'getting-started/new-pack' }
-          // { text: 'New Category', link: 'getting-started/new-category' }
+          { text: 'Setting Up', link: 'getting-started/setting-up' },
+          { text: 'Creating a New Pack', link: 'new/new-pack' },
+          { text: 'Creating a New Category', link: 'new/new-category' },
+          { text: 'Now what?', link: 'getting-started/afterwards' }
         ]
       },
       {
@@ -34,13 +35,6 @@ export default defineConfig({
         items: [
           { text: 'Python Files', link: 'scripts/py-files' }
           // { text: 'JS Files', link: 'scripts/js-files' }
-        ]
-      },
-      {
-        text: 'JSONs',
-        items: [
-          { text: 'Other JSONs', link: 'jsons/other-jsons' },
-          { text: 'Pack JSONs', link: 'jsons/pack-jsons' }
         ]
       },
       {
