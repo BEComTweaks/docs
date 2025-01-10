@@ -1,7 +1,6 @@
 ---
-prev:
-    text: New pack
-    link: new/new-pack
+prev: false
+next: false
 mentions:
   - NSPC911
 ---
@@ -30,3 +29,10 @@ Now that you have created a new category/pack, what do you do now?
     Open it and maybe you might get your first contribution!
 
 <Contributors />
+---
+<h3 style="margin-top: -10px !important; margin-bottom: 10px;">Other Pages</h3>
+<div style="display: grid; gap: 10px; grid-template-columns: auto-fit">
+    <PageButton direction="prev" link="../new/new-compatibility" desc="Previous page" title="Creating a new Compatibility" />
+    <PageButton direction="prev" link="../new/new-pack" desc="Previous page" title="Creating a new Pack" />
+    <PageButton direction="prev" link="../new/new-category" desc="Previous page" title="Creating a new Category" />
+</div>

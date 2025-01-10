@@ -10,9 +10,9 @@ Stuff to do or in progress.<br>Feel free to help me with these!
 	- Make a proper footer aside from the credits footer
  - Make an easily accessible console log like in [BEComTweaks/btrp-updater](https://github.com/BEComTweaks/btrp-updater)
  - Move away from a server to full frontend
-  - Resource Packs
-  - Behaviour Packs [`no-backend`](https://github.com/BEComTweaks/behaviour-packs/tree/no-backend)
-  - Crafting Tweaks
+    - Resource Packs
+    - Behaviour Packs [`no-backend`](https://github.com/BEComTweaks/behaviour-packs/tree/no-backend)
+    - Crafting Tweaks
 - docs
 	- Finish it up! <!--too lazy-->
 

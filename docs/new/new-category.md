@@ -1,10 +1,6 @@
 ---
-prev:
-    text: Setting up
-    link: getting-started/setting-up
-next:
-    text: Creating a new Pack
-    link: new/new-pack
+prev: false
+next: false
 mentions:
   - NSPC911
 ---
@@ -119,3 +115,13 @@ const listofcategories
 Now that your category is set, maybe create a new pack? If so, refer to [`Create a new pack`](new-pack)
 
 <Contributors />
+---
+<div style="display: flex; justify-content: space-between; gap: 10px" >
+  <div style="display: flex; flex-direction: column; gap: 10px; flex: 1;">
+    <PageButton direction="prev" link="../new/new-pack" desc="Previous page" title="Creating a new Pack" />
+    <PageButton direction="prev" link="../new/new-compatibility" desc="Previous page" title="Creating a new Compatibility" />
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 10px; flex: 1; align-items: flex-end;">
+    <PageButton direction="next" link="../getting-started/afterwards" desc="Next page" title="Now what?" />
+  </div>
+</div>

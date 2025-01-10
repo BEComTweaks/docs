@@ -5,6 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import Contributors from './components/Contributors.vue';
 import 'virtual:group-icons.css';
+import PageButton from './components/Pages.vue';
 
 export default {
   extends: DefaultTheme,
@@ -15,5 +16,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('Contributors', Contributors);
+    app.component('PageButton', PageButton);
   }
 } satisfies Theme

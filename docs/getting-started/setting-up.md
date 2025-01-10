@@ -1,7 +1,5 @@
 ---
-prev:
-    text: Home
-    link: index
+prev: false
 next: false
 mentions:
   - NSPC911
@@ -32,3 +30,9 @@ You will need
 That's it!
 
 <Contributor/>
+---
+<div style="display: grid; gap: 10px; grid-template-columns: auto-fit">
+  <PageButton direction="next" link="../new/new-compatibility" desc="Next page" title="Creating a new Compatibility" />
+  <PageButton direction="next" link="../new/new-pack" desc="Next page" title="Creating a new Pack" />
+  <PageButton direction="next" link="../new/new-category" desc="Next page" title="Creating a new Category" />
+</div>

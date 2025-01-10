@@ -1,10 +1,6 @@
 ---
-prev:
-    text: Setting up
-    link: getting-started/setting-up
-next:
-    text: Creating a new Pack
-    link: new/new-pack
+prev: false
+next: false
 mentions:
   - NSPC911
 ---
@@ -60,8 +56,8 @@ Say you want to add a 4 way compatibility while using the example `compatibility
 2. Create a new key called `4way`
 
    Here is how the key would look like
-  ```json [jsons/packs/compatibility.json]
-"2way": {
+```json [jsons/packs/compatibility.json]
+"4way": {
 	"compatibilities": [
 		["packid1", "packid2", "packid3", "packid4"]
 	],
@@ -69,4 +65,22 @@ Say you want to add a 4 way compatibility while using the example `compatibility
 	  "compatibility/packid1234"
 	]
 }
-	```
+```
+- The `compatibility` key contains the list of packs with compatibilities within each other
+- The `locations` key contains their  respective location with respective from `./packs`
+	- In this case, the location is `compatibility/packid1234`, so it will be located at `packs/compatibility/packid1234`
+
+If you are making an n-way compatibility where `n` is lesser than `maxway`, then you can just add onto the existing `n-way` key
+
+That should be about it!
+<Contributors/>
+---
+<div style="display: flex; justify-content: space-between; gap: 10px" >
+  <div style="display: flex; flex-direction: column; gap: 10px; flex: 1;">
+    <PageButton direction="prev" link="../new/new-pack" desc="Previous page" title="Creating a new Pack" />
+    <PageButton direction="prev" link="../new/new-category" desc="Previous page" title="Creating a new Category" />
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 10px; flex: 1; align-items: flex-end;">
+    <PageButton direction="next" link="../getting-started/afterwards" desc="Next page" title="Now what?" />
+  </div>
+</div>

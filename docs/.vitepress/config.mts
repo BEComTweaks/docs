@@ -38,6 +38,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Now what?',
+        items: [
+          { text: 'Now what?', link: 'getting-started/afterwards'}
+        ]
+      },
+      {
         text: 'Scripts',
         items: [
           { text: 'Python Files', link: 'scripts/py-files' }

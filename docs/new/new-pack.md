@@ -1,10 +1,6 @@
 ---
-prev:
-    text: Setting up
-    link: getting-started/setting-up
-next:
-    text: What next?
-    link: getting-started/afterwards
+prev: false
+next: false
 mentions:
   - NSPC911
 ---
@@ -143,5 +139,14 @@ You can start adding the files!
 If you are using a build script, you will need to create another directory to house the 'raw' files, add the script and its corresponding key in the pack's JSON (refer above)
 
 An example script is available in <kbd>./pys/example_builder.py</kbd>
-
-<Contributors />
+<Contributors/>
+---
+<div style="display: flex; justify-content: space-between; gap: 10px" >
+  <div style="display: flex; flex-direction: column; gap: 10px; flex: 1;">
+    <PageButton direction="prev" link="../new/new-compatibility" desc="Previous page" title="Creating a new Compatibility" />
+    <PageButton direction="prev" link="../new/new-category" desc="Previous page" title="Creating a new Category" />
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 10px; flex: 1; align-items: flex-end;">
+    <PageButton direction="next" link="../getting-started/afterwards" desc="Next page" title="Now what?" />
+  </div>
+</div>
