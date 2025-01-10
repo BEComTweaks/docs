@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 import footnote from 'markdown-it-footnote';
 import taskLists from 'markdown-it-task-lists';
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 
 // https://vitepress.dev/reference/site-config
@@ -22,12 +23,18 @@ export default defineConfig({
     ],
 
     sidebar: [
-      { text: 'Getting Started',
+      {
+        text: 'Getting Started',
         items: [
           { text: 'Setting Up', link: 'getting-started/setting-up' },
-          { text: 'Creating a New Pack', link: 'new/new-pack' },
-          { text: 'Creating a New Category', link: 'new/new-category' },
-          { text: 'Now what?', link: 'getting-started/afterwards' }
+        ]
+      },
+      {
+        text: 'Create a',
+        items: [
+          { text: 'New Pack', link: 'new/new-pack' },
+          { text: 'New Category', link: 'new/new-category' },
+          { text: 'New Compatibility', link: 'new/new-compatibility' },
         ]
       },
       {
@@ -55,7 +62,13 @@ export default defineConfig({
     config: (md) => {
       md.use(footnote);
       md.use(taskLists);
+      md.use(groupIconMdPlugin);
     },
     lineNumbers: true
+  },
+  vite: {
+    plugins: [
+      groupIconVitePlugin()
+    ]
   }
 })

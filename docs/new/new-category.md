@@ -55,14 +55,14 @@ aesthetic.json
 Finally, add the category's name inside <kbd>./webUI/app.js</kbd> in two very specific spots.
 
 Search for
-```js
+```js [webUI/app.js]
 function getSelectedTweaks()
 ```
 - Inside the function, you should see a constant variable called `jsonData` of a dictionary type.
 - Add your category name as a key inside the dictionary. This can be in any position
 
 Search for
-```js
+```js [webUI/app.js]
 const listofcategories
 ```
 - This is a list of the categories currently inside the website.
@@ -102,14 +102,14 @@ The main thing is to have a tab to indicate it is a subcategory!
 Finally, add the category's name inside <kbd>./webUI/app.js</kbd> in two very specific spots.
 
 Search for
-```js
+```js [webUI/app.js]
 function getSelectedTweaks()
 ```
 - Inside the function, you should see a constant variable called `jsonData` of a dictionary type.
 - Add your category name as a key inside the dictionary. This can be in any position
 
 Search for
-```js
+```js [webUI/app.js]
 const listofcategories
 ```
 - This is a list of the categories currently inside the website.

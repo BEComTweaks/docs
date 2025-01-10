@@ -2,9 +2,7 @@
 prev:
     text: Home
     link: index
-next:
-    text: Creating a new Pack
-    link: new/new-pack
+next: false
 mentions:
   - NSPC911
 ---
@@ -33,4 +31,4 @@ You will need
 
 That's it!
 
-<Contributors />
+<Contributor/>
