@@ -19,7 +19,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: 'https://becomtweaks.github.io' },
       { text: 'To-Do', link: 'to-do'},
-      { text: 'Discord', link: 'https://discord.gg/q5bd3u7h63' }
+      { text: 'Discord', link: 'https://becomtweaks.github.io/discord' }
     ],
 
     sidebar: [
