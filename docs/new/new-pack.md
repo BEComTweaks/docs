@@ -20,10 +20,7 @@ A general pack has the following dictionary
   "icon": "gif/apng/*",
   "priority": 0,
   "conflict": ["<pack_id of conflicting packs>"],
-  "build": {
-    "with": "<language>",
-    "script": "<filename>"
-  }
+  "regolith": true
 }
 ```
 There are somethat are necessary and some that aren't. Here is a full a run through of it.
@@ -103,22 +100,19 @@ The list contains <strong>Pack IDs</strong>, not Pack Names
   "conflict": ["PackID"]
 ```
 ---
-<h6>Build</h6>
+<h6>Regolith</h6>
 <strong>This is ONLY for behaviour packs</strong><br>
-Uses a regolith-like implementation to build a pack
+Use regolith to build the tweak
 
-<kbd>"with"</kbd> specifies how to start the build, with python, npm, node or any of your preferrence
-<kbd>"script"</kbd> specifies the script used to build, which is always located inside the pack's folder, alongside with the pack icon
 ```json
-  "build": {
-    "with": "<language>",
-    "script": "<filename>"
-  }
+  "regolith": true
 ```
 ---
 Add your necessary JSON to the category JSONs (located in <kbd>./jsons/packs</kbd>) before moving on to the next
 
 ## Making their folders
+
+<sub><strong>If you are using regolith, do not start on this, the implementation has not been finished.</strong></sub>
 
 Assuming you have added the proper JSONs, you can now create their folders
 
