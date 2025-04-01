@@ -17,7 +17,7 @@ hero:
     text: Discord
     link: https://becomtweaks.github.io/discord
   image:
-    src: https://becomtweaks.github.io/logo.png
+    src: https://becomtweaks.github.io/icon.png
     alt: BEComTweaks Logo
 
 features:
