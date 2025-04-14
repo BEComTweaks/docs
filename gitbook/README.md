@@ -1,11 +1,6 @@
 ---
 icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
 layout:
-  cover:
-    visible: true
-    size: full
   title:
     visible: true
   description:
@@ -18,12 +13,15 @@ layout:
     visible: true
 ---
 
-# Welcome
+# Home
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+## Welcome to BEComTweaks' Docs!
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+Thank you for checking out the documentation! This should contain everything from why BEComTweaks exists, to the fine details on how it works, and how to contribute!
 
-### Jump right in
+If you need more help, you are welcome to join our discord! It is available at [https://becomtweaks.github.io/discord](https://becomtweaks.github.io/discord)
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+#### Jump right in!
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Learn on the basics required in any repo!</td><td><a href="getting-started.md">getting-started.md</a></td></tr><tr><td><strong>Creating new things</strong></td><td>Learn to create new items like Packs, Sections and Compatibilities</td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Who are we?</strong></td><td>Want to know who we are?</td><td><a href="who-are-we.md">who-are-we.md</a></td></tr></tbody></table>
+

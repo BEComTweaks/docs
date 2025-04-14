@@ -1,17 +1,22 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Home](README.md)
+* [Getting Started](getting-started.md)
 
-## Getting Started
+## Creating a
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+* [New Pack](creating-a/new-pack.md)
 
-## Basics
+***
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [New Category](new-category.md)
+* [New Compatibility](new-compatibility.md)
+
+## Miscellaneous
+
+* [FAQ](miscellaneous/faq.md)
+
+***
+
+* [Impossible Packs](impossible-packs.md)
+* [Who are we?](who-are-we.md)
