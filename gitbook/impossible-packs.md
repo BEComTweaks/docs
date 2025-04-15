@@ -60,15 +60,12 @@ This is because of Minecraft Bedrock's issue. Mojang decided to combine both the
 
 Have you noticed the East and South textures?
 
-{% code fullWidth="true" %}
-```json
-    "down" : "dropper_top",
-    "east" : "dropper_front_vertical", 
-    "north" : "dropper_side",
-    "south" : "dropper_front_horizontal", 
-    "up" : "dropper_top",
-```
-{% endcode %}
+<pre class="language-json" data-full-width="true"><code class="lang-json">    "down" : "dropper_top",
+<strong>    "east" : "dropper_front_vertical", 
+</strong>    "north" : "dropper_side",
+<strong>    "south" : "dropper_front_horizontal", 
+</strong>    "up" : "dropper_top",
+</code></pre>
 
 Yeah, Mojang decided to set the Upwards and Downwards facing Dropper textures with East and South. They couldn't bother setting a special blockshape for them, like the hopper. What a party pooper.
 

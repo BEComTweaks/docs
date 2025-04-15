@@ -6,16 +6,18 @@ icon: nfc
 
 BEComTweaks had just received its overhauled compatibility handler, so here is a full doc on it
 
-<pre class="language-json" data-overflow="wrap" data-line-numbers data-full-width="true"><code class="lang-json">{
+{% code overflow="wrap" lineNumbers="true" fullWidth="true" %}
+```json
+{
   "max_simultaneous": 3,
   "3way": [
     {
-<strong>      "merge": [
-</strong>        "packid1",
+      "merge": [
+        "packid1",
         "packid2",
         "packid3"
       ],
-      "location": "&#x3C;location to compatibility>",
+      "location": "<location to compatibility>",
       "overwrite": true
     }
   ],
@@ -25,11 +27,12 @@ BEComTweaks had just received its overhauled compatibility handler, so here is a
         "packid4",
         "packid5"
       ],
-      "location": "&#x3C;location to compatibility>"
+      "location": "<location to compatibility>"
     }
   ]
 }
-</code></pre>
+```
+{% endcode %}
 
 This is a complicated mess, so I'll try my best to explain this
 
