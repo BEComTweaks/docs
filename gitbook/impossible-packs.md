@@ -89,7 +89,7 @@ Only borderless versions, like Borderless Glass is available, as a block is unab
 Either with a flipbook texture or shaders.
 
 * Shaders\
-  Not possible as it is not officially supported.[<sup>\[1\]</sup>](https://becomtweaks.github.io/docs/misc/impossible-packs.html#fn1)
+  Not possible as it is not officially supported.
 * Flipbook Texture\
   Very demanding, especially on mobile as it utilises extremely high resolution textures
 
