@@ -12,6 +12,10 @@
 * [New Category](new-category.md)
 * [New Compatibility](new-compatibility.md)
 
+## Server
+
+* [API](server/api.md)
+
 ## Miscellaneous
 
 * [FAQ](miscellaneous/faq.md)
