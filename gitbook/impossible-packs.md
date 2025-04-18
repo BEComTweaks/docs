@@ -11,28 +11,28 @@ Keep in mind that some might be added to BEComTweaks as toned-down versions.
 
 ### Resource Packs <a href="#resource-packs" id="resource-packs"></a>
 
-**1. Bushy Leaves**
+#### 1. Bushy Leaves
 
-There is no way to edit a block's geometry to make it bushy in Vanilla Bedrock. While pre-defined blockshapes can be used, with the closest one being Cactus, it does not match the original aesthetic of Bushy Leaves, hence why it is left out.
+There is no way to edit a block's geometry to make it bushy in vanilla Bedrock. While pre-defined blockshapes can be used, with the closest one being Cactus, it does not match the original aesthetic of Bushy Leaves, hence why it is left out.
 
-**2. Visual Cauldron Stages**
+#### 2. Visual Cauldron Stages
 
 Cauldron does not support transparent textures, so just removing the center line doesn't help. Cauldrons do not have any visual changes when adding/removing water/powdered snow.\
 However, Lava Cauldrons do have a seperate Block State, but that misses the entire point of Visual Cauldron Stages.
 
-**3. Visual Honey Stages**
+#### 3. Visual Honey Stages
 
 The Bee Hive and Nest only visually change while full, so any other progress in-between cannot be shown in the pack. This prevents DrAV from adding the pack to BedrockTweaks
 
 Available on BEComTweaks. [Link ↗](https://becomtweaks.github.io/resource-packs/?st_raw=N4IgTghg7iBcDaIBiBXANmgEgewHYFMBPAZQBcIBzfEAXQF8g)
 
-**4. Visual Noteblock Pitch**
+#### 4. Visual Noteblock Pitch
 
-Noteblocks have no change in Block States when switching pitches or instruments, so having it change textures is out of the question. However, [lonelyang](https://github.com/lonelyang) discovered that you can edit the Particle emitted by the Note Block to show the current Pitch of it. Again, DrAV doesn't like the implementation of it and will not add it to Bedrock Tweaks
+Noteblocks have no change in Block States when switching pitches or instruments, so having it change textures is out of the question. However, [lonelyang](https://github.com/lonelyang) discovered that you can edit the Particle emitted by the Note Block to show the current pitch of it. Again, DrAV doesn't like the implementation of it and will not add it to Bedrock Tweaks
 
 Available on BEComTweaks. [Link ↗](https://becomtweaks.github.io/resource-packs/?st_raw=N4IgTghg7iBcDaIByB7ALgUwEIBsUGMBrABQEs18ALYiMNU-HDEAXQF8g)
 
-**5. Directional Droppers and Dispensers**
+#### 5. Directional Droppers and Dispensers
 
 This is because of Minecraft Bedrock's issue. Mojang decided to combine both the sideways facing dropper textures and the vertical facing dropper textures into a single block without any blockstates.
 
@@ -73,15 +73,16 @@ Yeah, Mojang decided to set the Upwards and Downwards facing Dropper textures wi
 
 Available on BEComTweaks. [Link ↗](https://becomtweaks.github.io/resource-packs/?st_raw=N4IgTghg7iBcDaIAiBLMBTAxgFxQewDsIAbVAZwAd0Cz0wyQAaZNLXQkpMPCq%2BkALoBfIA)
 
-**6. Most of the 3D Category**
+#### 6. Most of the 3D Category
 
-Currently supported 3D Packs are 3D Mace and 3D Sun and Moon. [BEComTweaks](https://becomtweaks.github.io/resource-packs) also has 3D Fungi, but anything else is not possible mainly because Custom Geometry cannot be set for Vanilla Blocks. 3D Fungi itself was made using Azalea's Block Shape.
+Currently supported 3D Packs are 3D Mace and 3D Sun and Moon. [BEComTweaks](https://becomtweaks.github.io/resource-packs) also has 3D Fungi, but anything else is not possible mainly because custom geometry cannot be set for vanilla blocks. 3D Fungi itself was made using Azalea's Block Shape.
 
-**7. Connected Textures**
+#### 7. Connected Textures
 
-Only borderless versions, like Borderless Glass is available, as a block is unable to check whether there is another block of the same type touching it. Shaders could be made, but they aren't officially supported on the main version.
+Only borderless versions, like Borderless Glass is available, are possible. Shaders could be made, but they aren't officially supported on the main version. If Mojang makes vanilla block behaviors customizable, this could be possible.\
+It is possible to create a custom glass block that has connected textures, but that would not make it resource pack-only. As an example Habib Anwash's [Connected Glass Add-on](https://mcpedl.com/connected-glass-addon/)
 
-**8. Wavy Leaves and Plants**
+#### 8. Wavy Leaves and Plants
 
 Either with a flipbook texture or shaders.
 
@@ -90,61 +91,73 @@ Either with a flipbook texture or shaders.
 * Flipbook Texture\
   Very demanding, especially on mobile as it utilises extremely high resolution textures
 
-**9. Fullbright/Hardcode Darkness/Warm Glow/Mob Spawn Indicator**
+#### 9. Fullbright
+
+Requires shaders to do it, which aren't supported.\
+However, full bright is possible using Vibrant Visuals (a video setting in Minecraft) but that can only be used in the Beta & Preview version (and hopefully soon available in the full release!). Cubier's [Full bright night vision](https://mcpedl.com/full-bright-night-vision/) shows how it works.
+
+#### 10. Hardcode Darkness/Warm Glow
 
 No shader support.
 
-**10. Endless End Rods**
+#### 11. Mob Spawn Indicator/Light level indicator
+Mob spawn indicator is about whether the light level of a certain block is low enough (light level 0) to spawn hostile mobs. That requires shaders, which aren't supported.\
+Not to be confused with mob _spawning_ indicator, which is possible. Such packs have already been made by several people, like Maddhatter's [Technical Resource Pack](https://github.com/RavinMaddHatter/Bedrock-Technical-Resource-Pack) where a sphere shows the spawn _distance_ rather than light level.
+
+#### 12. Endless End Rods
 
 Requires a bit more testing. Theoretically, adding a `"blockshape": "block"` should fix it, but the block turns black.
 
-**11. Randomly Rotated Sunflowers / Taller Sunflowers**
+#### 13. Randomly Rotated Sunflowers / Taller Sunflowers
 
-Custom Geometry can't be set for Vanilla Blocks.
+Custom geometry can't be set for vanilla blocks.
 
-**12. Redstone Power Levels**
+#### 14. Redstone Power Levels
 
 No shader support. There is a buggy version by dhan on mcpedl which doesn't show directions. [Link ↗](https://mcpedl.com/redstone-signal-indicator-for-mcpe/)
 
-**13. Groovy Levers**
+#### 15. Groovy Levers
 
-Custom Geometry can't be set for Vanilla Blocks.
+Custom geometry can't be set for vanilla blocks.
 
-**14. Visual Sapling Growth**
+#### 16. Visual Sapling Growth
 
 No block states to depend on to change textures.
 
-**15. No Beacon Beam**
+#### 17. No Beacon Beam
 
 Beacon Beam doesn't support opacity, so if I put a transparent texture, the beam would just turn black.
 
-**16. Old Alex & Steve / Dungeons Alex & Steve**
+#### 18. Old Alex & Steve / Dungeons Alex & Steve
 
 Minecraft no longer loads Alex and Steve textures from resource packs.
 
-**17. Big Dripleaf Stem Fix / Small Dripleaf Stem Fix**
+#### 19. Big Dripleaf Stem Fix / Small Dripleaf Stem Fix
 
-Can't make sure the stem properly use the texture, so it could result in the wrong side having no stems
+Can't make sure the stem properly use the texture, so it could result in the wrong side having no stems.
 
-**18. Slime Particle Fix / Proper Break Particles / Don't Eat the Bowl**
+#### 20. Slime Particle Fix / Proper Break Particles / Don't Eat the Bowl
 
 Vanilla bug that cannot be fixed. The particles' colors cannot be changed and are hardcoded by default.
 
-**19. Iron Bars Fix**
+#### 21. Iron Bars Fix
 
-General Issue. Z-Fighting cannot usually be fixed unless the shader is properly set or the cube is above the other cube by the smallest dimensions. However, shaders can't be changed and custom geometry cannot be set.
+Z-Fighting usually cannot be fixed unless the shader is properly set or the cube is above the other cube by the smallest dimensions. However, shaders can't be changed and custom geometry cannot be set.
 
-**20. Pixel Consistent Trip Wire**
+Unless Mojang decides to fix [MCPE-168603](https://bugs.mojang.com/browse/MCPE/issues/MCPE-168603), there is nothing that can be done.
 
-Custom Geometry can't be set for Vanilla Blocks.
+#### 22. Pixel Consistent Trip Wire
 
-**21. Diminshing Tools**
+Custom geometry can't be set for vanilla blocks.
+
+#### 23. Diminshing Tools
 
 The current durability can be obtained, but the item texture cannot be changed based on the durability. Even if it was able to, there would be a ton of textures, lagging the game a lot.
+There are packs that can do this, like: http://mcpedl.com/durability-tools-viewer-pack/ by DimzCraft. These packs do not change textures, but rather add information in the tooltip or item texture on top of the bar.
 
-**22. Spinning Skull on Fire Painting**
+#### 24. Spinning Skull on Fire Painting
 
-Minecraft Bedrock has all the painting in a single PNG file of resolution 256x256. There are, at minimum, 12 frames. The resolution would become 256x3072. Yeah.
+Minecraft Bedrock has all paintings in a single PNG file of resolution 256x256. There are, at minimum, 12 frames. The resolution would become 256x3072. Yeah.
 
 ### Crafting Tweaks <a href="#crafting-tweaks" id="crafting-tweaks"></a>
 
@@ -152,7 +165,7 @@ None at the moment.
 
 ### Behaviour Packs <a href="#behaviour-packs" id="behaviour-packs"></a>
 
-**1. Player Heads**
+#### 1. Player Heads
 
 **Player Drop Heads** is entirely possible as the game stands right now, but not how you would expect it to function. World Owners would have to do a bit or a lot of manual file editting to make the packs work, and you would be responsible for keeping it up to date as best as you can - we provide the script you provide the textures sort of arrangement.
 
@@ -168,6 +181,6 @@ There is hope and a possible solution, but its ugly. If someone was willing to p
 
 > \~ SquatchHunter, Moderator of drav.dev and member of Bedrock Tweaks
 
-**2. Off-Hand**
+#### 2. Off-Hand
 
 It became impossible after 1.20 when Mojang updated the Beta API system to prevent any changes to the player on the gametick that an event happens. FoxyNoTail's [Offhand Addon](https://foxynotail.com/add-ons/off-hand/) heavily relied on this, as it needed the event to change objects from mainhand to offhand on the same gametick that you are placing the block.
