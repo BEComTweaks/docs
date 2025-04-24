@@ -23,6 +23,9 @@ The format for a pack is as follows
   "conflict": [
     "<pack ids>"
   ],
+  "obvious_conflict": [
+    "<pack ids>"
+  ],
   "message": [
     "<level>",
     "<notes>"
@@ -55,6 +58,13 @@ The only required definitions are `pack_id`, `pack_name` and `pack_description`.
 
 * This defines the list of packs that conflict with the current pack. This is used to warn the user of enabling such a pack with another pack. This has no purpose in the backend.
 * Must be an array containing non-empty strings, but can be omitted.
+
+#### Obvious Conflict
+
+* This defines the list of packs that conflict with the current pack, but in an obvious way.
+This differs from `conflict` which is for normal conflicts that might be overlooked.
+  - 'Obvious' refers to packs of a single category targetting the same texture, like the Menu Panorama category.
+* Must be an array containing non-empty strings, but can be omitted
 
 #### Message
 
