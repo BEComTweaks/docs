@@ -6,11 +6,8 @@
 ## Creating a
 
 * [New Pack](creating-a/new-pack.md)
-
-***
-
-* [New Category](new-category.md)
-* [New Compatibility](new-compatibility.md)
+* [New Category](creating-a/new-category.md)
+* [New Compatibility](creating-a/new-compatibility.md)
 
 ## Server
 
@@ -19,8 +16,5 @@
 ## Miscellaneous
 
 * [FAQ](miscellaneous/faq.md)
-
-***
-
-* [Impossible Packs](impossible-packs.md)
-* [Who are we?](who-are-we.md)
+* [Impossible Packs](miscellaneous/impossible-packs.md)
+* [Who are we?](miscellaneous/who-are-we.md)
