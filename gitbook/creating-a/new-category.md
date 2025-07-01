@@ -32,12 +32,12 @@ The required keys are `topic` and `packs` while `$schema` helps for autocomplete
 #### Subcategory of
 
 * The name of the parent category. No use in backend, shows up only in the frontend.
-* Must be a non-empty string, but can be left out. Defaults to the `topic` key in all lowercase
+* Must be a non-empty string, but can be left out.
 
 #### Location
 
 * The location where the category is located at. Used by backend to find where the packs are located at.
-* Must be a non-empty string, but can be left out.
+* Must be a non-empty string, but can be left out. Defaults to the `topic` key in all lowercase
 
 #### Packs
 
