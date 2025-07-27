@@ -95,7 +95,9 @@ What do each of the keys do?
 #### Overwrite
 
 * When overwrite is set to true, it moves over the main packs, then overwrites files with the files from compatibilities. This reduces the file size required for each compatibility and lets 4way compatibilities be out of mind until absolutely necessary
-* When overwrite is set to false? Refer to BedrockTweaks.
+*   When overwrite is set to false, it uses the compatibility folder's packs, voiding the files inside the packs it is compatible for.
+
+    For example, if Pack1 and Pack2 have their compatibility overwrite set to false, the folder location referenced will be used, and Pack1 and Pack2's contents will not be used at all.
 
 If you are making an n-way compatibility where `n` is lesser than `max_simultaneous`, then you can just add onto the existing `n-way` key
 

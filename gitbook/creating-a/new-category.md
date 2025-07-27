@@ -43,15 +43,20 @@ The required keys are `topic` and `packs` while `$schema` helps for autocomplete
 
 * The list of dictionaries, referencing to each pack
 
-After making the category, head over to `/packs` then create a new folder either called `<topic in lowercase>` or  `<key location>.` Continue with creating the new packs using [new-pack.md](creating-a/new-pack.md "mention")
+After making the category, head over to `/packs` then create a new folder either called `<topic in lowercase>` or `<key location>.` Continue with creating the new packs using [new-pack.md](creating-a/new-pack.md "mention")
 
 #### Final Setup
 
-After the pack setup, open the `pack_order_list.txt` inside `jsons` (don't ask why it is there). Insert the category's json file name somewhere in that file (and add an indentation if it is a subcategory).
+There are a two extra files you need to change before you are done.
 
-Open the `app.js` inside `webUI` and add the following at the end of the `categoryDicts` constant.
+*   `jsons/pack_order_list.txt`
 
-`"<key topic">: [],`&#x20;
+    Insert the category's json file name somewhere in that file. When making the website, it goes top down, with indentation for subcategories.
+*   `webUI/app.js`
+
+    Add the following wherever you want in the `categoryDicts` constant.&#x20;
+
+    `"<key topic">: [],`
 
 Now run
 
@@ -63,4 +68,4 @@ python pys/pre_commit.py --format --no-stash
 
 And it should be reflected inside `webUI/index.html`. Open it up with any browser and you should see the new category!
 
-Now follow [#checks](creating-a/new-pack.md#checks "mention") for creating a new Pull Request
+Now follow [#checks](new-pack.md#checks "mention") for creating a new Pull Request
